@@ -5,7 +5,7 @@ class Complex {
     float real;
     float imaginary;
 
-public:
+    public:
     // Constructor with initialization list
     Complex(float real, float imaginary) : real(real), imaginary(imaginary) {}
 
@@ -31,5 +31,4 @@ int main(){
 
     Complex c2(c);
     c2.display();
-        
 }
